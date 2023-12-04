@@ -1024,7 +1024,7 @@ import { StyledButtonComponent } from '../../components/styled-button/styled-but
 @Component({
   selector: "app-hero-add",
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, FormsModule, StyledButtonComponent],
   templateUrl: "./hero-add.component.html",
   styleUrl: "./hero-add.component.css",
 })
